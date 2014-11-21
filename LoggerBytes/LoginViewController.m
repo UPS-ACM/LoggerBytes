@@ -38,6 +38,7 @@ bool isEditing = false;
 
 - (void)slideView:(UIView *)view offset:(NSInteger)offset {
     view.frame = CGRectMake(view.frame.origin.x, view.frame.origin.y + offset, view.frame.size.width, view.frame.size.height);
+    
 }
 
 - (void)slideTextField:(UITextField *)textField offset:(NSInteger)offset {
